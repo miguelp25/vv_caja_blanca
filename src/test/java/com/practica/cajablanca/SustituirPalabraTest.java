@@ -1,10 +1,6 @@
 package com.practica.cajablanca;
 import com.cajanegra.EmptyCollectionException;
-import org.junit.jupiter.api.*;
-import java.io.IOException;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
