@@ -1,0 +1,6 @@
+Camarero
+Picaporte
+Cocinero
+Agua
+Vendedor
+Agua

@@ -112,7 +112,7 @@ public class Editor {
 		if (this.editor.size() > 0) {
 			while (inicio < fin) {
 				this.lista = this.editor.getAtPos(inicio);
-				int pos = 1;
+				int pos = 1; //10
 				while (pos <= this.lista.size()) {
 					String cadena = this.lista.getAtPos(pos);
 					if (cadena.equals(palabra)) {
@@ -156,7 +156,7 @@ public class Editor {
 				this.lista = this.editor.getAtPos(i);
 				for (int pos = 1; pos <= this.lista.size(); pos++) {
 					String cadena = this.lista.getAtPos(pos);
-					if (mayor == null) {
+					if (mayor == null) { // 8
 						mayor = cadena;
 					} else if (cadena.length() > mayor.length()) {
 						mayor = cadena;
