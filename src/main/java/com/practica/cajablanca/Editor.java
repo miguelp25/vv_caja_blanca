@@ -181,7 +181,7 @@ public class Editor {
 				AbstractSingleLinkedListImpl<String> aux = new SingleLinkedListImpl<String>();
 				this.lista = this.editor.getAtPos(i);
 				int j=1;
-				while (j<=this.lista.size()) {
+				while (j<=this.lista.size()) { // 10
 					if (this.lista.getAtPos(j).equals(palabra)) {
 						aux.addLast(nuevaPalabra);
 					}else {
